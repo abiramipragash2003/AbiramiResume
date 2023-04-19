@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Abirami Portfolio</title>
+            <link rel="icon" type="image/x-icon" href="logo.jpg">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <style>
+                body {
+                    margin: 0;
+                    font-family: 'Times New Roman', Times, serif;
+                    font-style: italic;
+                }
+
+                .topnav {
+                    background-color: lightgray;
+                    overflow:hidden;
+                }
+                
+                .topnav a {
+                    float: right;
+                    display: block;
+                    color: black;
+                    text-align: center;
+                    padding: 14px 16px;
+                    text-decoration: none;
+                    font-size: 130%;
+                }
+
+                .topnav a:hover {
+                    background-color: gray;
+                    color: white;
+                }
+
+                .topnav a.active {
+                    float:left;
+                }
+
+                .topnav .icon {
+                    display: none;
+                }
+
+                @media screen and (max-width: 1400px) {
+                    .topnav a:not(:first-child) {display: none;}
+                    .topnav a.icon {
+                        float: right;
+                        display: block;
+                    }
+                }
+
+                @media screen and (max-width: 1400px) {
+                    .topnav.responsive {position: relative;}
+                    .topnav.responsive .icon {
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                    }
+                    .topnav.responsive a {
+                        float: none;
+                        display: block;
+                        text-align: left;
+                    }
+                }
+                .ldata{
+                    margin-left: 3%;
+                    width:40%;
+                    height: 100%;
+                    float : left;
+                }
+                .mdata{
+                    margin-left: 25%;
+                    width:50%;
+                }
+                .rdata{
+                    margin-right: 3%;
+                    width:40%;
+                    height:100%;
+                    float:right;
+                }
+                .vl {
+                    border-left: 6px solid green;
+                    margin-left: 48%;
+                    margin-top: 1%;
+                    height: 40vw;
+                    
+                }
+                a{
+                    text-decoration: none;
+                }
+                footer {   
+                    text-align: center;
+                    margin-bottom: 20px;
+                }
+            </style>
+            <script>
+                function myFunction() {
+                    var x = document.getElementById("myTopnav");
+                    if (x.className === "topnav") {
+                        x.className += " responsive";
+                    } else {
+                        x.className = "topnav";
+                    }
+                }
+            </script>
+        </head>
+        <body>
+
+            <div class="topnav" id="myTopnav" style = "margin-bottom: 2%;font-size: 1.5em;">
+                <a href="#Portfolio" class="active"><b>Portfolio</b></a>
+                <a href="#contact"><b>Contact</b></a>
+                <a href="#interests"><b>Interests</b></a>
+                <a href="#paper"><b>Presentation</b></a>
+                <a href="#projects"><b>Project</b></a>
+                <a href="#certifications"><b>Certifications</b></a>
+                <a href="#education"><b>Education</b></a>
+                <a href="#skills"><b>Skills</b></a>
+                <a href="#about"><b>About</b></a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i></a>
+            </div>
+            <section id = "Portfolio" style = "margin-bottom: 5%;">
+                <fieldset style = "border:none">
+                    <div class = "ldata" style = "padding-top: 1%;padding-bottom: 1%; ">
+                        <img src="profile1.jpeg" alt="Avatar" style="width:100%; border-radius: 50%;">
+                    </div>
+                    <div class = "rdata" style = "padding-top: 10%;">
+                        <p><center style = "font-size: 5vw;padding-bottom: 0rem;">Hi!</center></p>
+                        <p><center style = "font-size: 3vw;padding-bottom: 0rem;">I'm Abirami K P</center></p>
+                        <p><center style = "font-size: 2vw;padding-bottom: 0rem;">Problem Solver and a great Leader</center></p>
+                    </div>
+                    <div class = "vl"></div>
+                </fieldset>
+            </section>
+            <section  id = "about" style = "margin-bottom: 5%;">
+                <fieldset style = "border:none">
+                    <h1><center style = "font-size: 3vw;"><fieldset style = "width: 10%;border-radius: 5vmin;border-width: 1vmin; border-color: #0096FF;">About</fieldset></center></h1>
+                    <div class = "ldata">
+                        
+                        <p style = "font-size: 2vw;padding-bottom: 0rem;">To pursue a challenging career and be a part of an organisation that gives scope to enrich my knowledge and utilizes my skills towards the growth of organization and myself</p>
+                    </div>
+                    <div class = "rdata">
+                        
+                        <p><center style = "font-size: 2vw;padding-bottom: 0rem;">Age : 20</center></p>
+                        <p><center style = "font-size: 2vw;padding-bottom: 0rem;">Email-ID : abiramipragash2003@gmail.com</center></p>
+                        <p><center style = "font-size: 2vw;padding-bottom: 0rem;">Ph-no : +91 90802 26286</center></p>
+                        <p><center style = "font-size: 2vw;padding-bottom: 0rem;">Address : Tamilnadu , India</center></p>
+                        <p><center style = "font-size: 2vw;padding-bottom: 0rem;">Status : Student</center></p>
+                    </div>
+                </fieldset>
+            </section>
+            <section id = "skills" style = "margin-bottom: 5%;">
+                <fieldset style = "border:none">
+                    <h1><center style = "font-size: 3vw;"><fieldset style = "width: 15%;border-radius: 5vmin;border-width: 1vmin; border-color: #0096FF;">My Skills</fieldset></center></h1>
+                    <fieldset style = "border-radius: 5vmin;">
+                        <div class = "ldata">
+                    <h1><center style = "font-size: 3vw;"><fieldset style = "width: 60%;border-radius: 5vmin;border-width: 1vmin">Technical Skills</fieldset></center></h1>
+                            <p style = "padding-top: 3%;"></p>
+                            <label for="file" style="font-size : 4vmin;"><center>Programming in C - 90%</center></label>
+                            <progress id="file" value="90" max="100" style = "width : 100%; height:5vmin"></progress>
+                            <label for="file" style="font-size : 4vmin;"><center>IoT - 80%</center></label>
+                            <progress id="file" value="80" max="100" style = "width : 100%; height:5vmin"></progress><br>
+                            <label for="file" style="font-size : 4vmin;"><center>Programming in Python - 70%</center></label>
+                            <progress id="file" value="70" max="100" style = "width : 100%; height:5vmin"></progress>
+                            <label for="file" style="font-size : 4vmin;"><center>Proteus Software - 70%</center></label>
+                            <progress id="file" value="70" max="100" style = "width : 100%; height:5vmin"></progress><br>
+                            <label for="file" style="font-size : 4vmin;"><center>Dialux Software - 70%</center></label>
+                            <progress id="file" value="70" max="100" style = "width : 100%; height:5vmin"></progress>
+                        </div>
+                        <div class = "rdata">
+                            <h1><center style = "font-size: 3vw;"><fieldset style = "width: 40%;border-radius: 5vmin;border-width: 1vmin">Soft Skills</fieldset></center></h1>
+                            <label for="file" style="font-size : 4vmin;"><center>Adaptability - 90%</center></label>
+                            <progress id="file" value="90" max="100" style = "width : 100%; height:5vmin;"></progress><br>
+                            <label for="file" style="font-size : 4vmin;"><center>Leadership - 90%</center></label>
+                            <progress id="file" value="90" max="100" style = "width : 100%; height:5vmin"></progress>
+                            <label for="file" style="font-size : 4vmin;"><center>Responsibility - 90%</center></label>
+                            <progress id="file" value="90" max="100" style = "width : 100%; height:5vmin"></progress><br>
+                            <label for="file" style="font-size : 4vmin;"><center>Communicaction Skills - 90%</center></label>
+                            <progress id="file" value="90" max="100" style = "width : 100%; height:5vmin"></progress><br>
+                            <label for="file" style="font-size : 4vmin;"><center>Team work - 80%</center></label>
+                            <progress id="file" value="80" max="100" style = "width : 100%; height:5vmin"></progress><br>
+                            <label for="file" style="font-size : 4vmin;"><center>Problem Solving Skills - 80%</center></label>
+                            <progress id="file" value="80" max="100" style = "width : 100%; height:5vmin"></progress>
+                        </div>
+
+                    </fieldset>    
+                </fieldset>
+            </section>
+            <section id = "education" style = "margin-bottom: 5%;">
+                <fieldset style = "border:none;">
+                    <h1><center style = "font-size: 3vw;"><fieldset style = "width: 10%;border-radius: 5vmin;border-width: 1vmin; border-color: #0096FF;">Education</fieldset></center></h1>
+                    <fieldset style = "border: none;margin-bottom: 3%;">
+                        <div class = "ldata">
+                            <fieldset style = "border-radius: 5vmin;">
+                                <h1><center style = "font-size: 3vmax;"><a href = "overall marksheet.pdf">Dept of EEE</a></center></h1>
+                                <p><center style = "font-size: 2vmax;">Kongu Engineering College</center></p>
+                            </fieldset>
+                        </div>
+                        <div class = "rdata">
+                            <fieldset style = "border-radius: 5vmin;">
+                                <h1><center style = "font-size: 3vmax;"><a href = "12 th marksheet.pdf">HSC</a></center></h1>
+                                <p><center style = "font-size: 2vmax;">Green Garden Matric Hr. Sec. School</center></p>
+                            </fieldset>
+                        </div>
+                    </fieldset>
+                    <div class = "mdata">
+                        <fieldset style = "border-radius: 5vmin;">
+                            <h1><center style = "font-size: 3vmax;"><a href = "10th marksheet.pdf">SSLC</a></center></h1>
+                            <p><center style = "font-size: 2vmax;">Kongu Vellalar Matric Hr. Sec. School</center></p>
+                        </fieldset>
+                    </div>
+                </fieldset>
+            </section>
+            <section id = "certifications" style = "margin-bottom: 5%;">
+                <fieldset style = "border:none">
+                    <h1><center style = "font-size: 3vw;"><fieldset style = "width: 10%;border-radius: 5vmin;border-width: 1vmin; border-color: #0096FF;">Certifications</fieldset></center></h1>
+                    <div class = ldata>
+                        <fieldset style = "border-radius: 5vmin;">
+                            <p><center style = "font-size: 3vmin;"><b><a href = "IoT Introduction to Real Time Applications.pdf">IoT Introduction to Real Time Applications</a></b></center></p>
+                        </fieldset>
+                    </div>
+                    <div class = rdata>
+                        <fieldset style = "border-radius: 5vmin;">
+                            <p><center style = "font-size: 3vmin;"><b><a href = "Illumination and Lighting Design.pdf">Illumination and Lighting Design</a></b></center></p>
+                        </fieldset>
+                    </div>
+                </fieldset>
+            </section>
+
+            <sectoin id = "projects"  style = "margin-bottom: 5%;">
+                <fieldset style = " border:none">
+                    <h1><center style = "font-size: 3vw;"><fieldset style = "width: 10%;border-radius: 5vmin;border-width: 1vmin; border-color: #0096FF;">Project</fieldset></center></h1>
+                    <fieldset style = "border: none;">
+                        <div class = "ldata">
+                            <fieldset  style = " border-top-right-radius: 5vmin; border-top-left-radius: 5vmin;">
+                                <p><center style = "font-size: 3vmin;"><b><a href = "sink.pdf">Adjustable Kitchen Sink</a></b></center></p>
+                            </fieldset>
+                            <fieldset  style = " border-bottom-right-radius: 5vmin; border-bottom-left-radius: 5vmin; margin-bottom: 5%;">
+                                <p><center style = "font-size: 3vmin;">Second Prize in Renac 2021 at Bannari Amman Institute of Technology<br><hr>Partcicipated in Pragyan 22 conducted by NIT trichy<br></center></p>
+                            </fieldset>
+                        
+                        </div>
+                        <div class = "rdata">
+                            <fieldset  style = " border-top-right-radius: 5vmin; border-top-left-radius: 5vmin;">
+                                <p><center style = "font-size: 3vmin;"><b><a href = "merged.pdf">Smart clothing for coal mine workers</a></b></center></p>
+                            </fieldset>
+                            <fieldset  style = " border-bottom-right-radius: 5vmin; border-bottom-left-radius: 5vmin; margin-bottom: 5%;">
+                                <p><center style = "font-size: 3vmin;">1st Prize in Smart India Hackathon  - Internal Hackathon at KEC<hr><br>Participated in the finals of KPIT<hr><br>Selected in the PRELIMS of IEEE YESIST12</center></p>
+                            </fieldset>
+                        </div>
+                    </fieldset>
+                    <fieldset style = "border: none;">
+                        <div class="ldata">
+                            <fieldset  style = " border-top-right-radius: 5vmin; border-top-left-radius: 5vmin;">
+                                <p><center style = "font-size: 3vmin;"><b><a href = "mistral-boat.pdf">Smart boat for determining the pollution level of water bodies</a></b></center></p>
+                            </fieldset>
+                            <fieldset  style = " border-bottom-right-radius: 5vmin; border-bottom-left-radius: 5vmin; margin-bottom: 5%;">
+                                <p><center style = "font-size: 3vmin;">Selected in the first round of Mistral hackfest-2K22</center></p>
+                            </fieldset>
+                        </div>
+                        <div class = "rdata">
+                            <fieldset  style = " border-top-right-radius: 5vmin; border-top-left-radius: 5vmin;">
+                                <p><center style = "font-size: 3vmin;"><b><a href = "rapidironmachine.pdf">Rapid Iron Machine</a></b></center></p>
+                            </fieldset>
+                            <fieldset  style = " border-bottom-right-radius: 5vmin; border-bottom-left-radius: 5vmin; margin-bottom: 5%;">
+                                <p><center style = "font-size: 3vmin;">Third Prize in Ideathon conducted by KEC</center></p>
+                            </fieldset>
+                        </div>
+                    </fieldset>
+                </fieldset>
+            </sectoin>
+            <sectoin id = "paper"  style = "margin-bottom: 5%;">
+                <fieldset style = " border:none">
+                    <h1><center style = "font-size: 3vw;"><fieldset style = "width: 30%;border-radius: 5vmin;border-width: 1vmin; border-color: #0096FF;">Paper Presentations</fieldset></center></h1>
+                    <div class = "ldata">
+                        <fieldset  style = " border-top-right-radius: 5vmin; border-top-left-radius: 5vmin;">
+                            <p><center style = "font-size: 3vmin;"><b>IOT Based Smart Agriculture Monitoring And Irrigation System </b></center></p>
+                        </fieldset>
+                        <fieldset  style = " border-bottom-right-radius: 5vmin; border-bottom-left-radius: 5vmin; margin-bottom: 5%;">
+                            <p><center style = "font-size: 3vmin;">1st place in a event entitled papertrix conducted by IEEE at KEC.
+                            </center></p>
+                        </fieldset>
+                    </div>
+                    <div class = "rdata">
+                        <fieldset  style = " border-top-right-radius: 5vmin; border-top-left-radius: 5vmin;">
+                            <p><center style = "font-size: 3vmin;"><b><a href = "wirecutter.pdf">Automatic wire cutter and striper</a></b></center></p>
+                        </fieldset>
+                        <fieldset  style = " border-bottom-right-radius: 5vmin; border-bottom-left-radius: 5vmin; margin-bottom: 5%;">
+                            <p><center style = "font-size: 3vmin;">2nd place in a paper presentation event entitled Zenith conducted by KEC.</center></p>
+                        </fieldset>
+                    </div>
+                </fieldset>
+            </sectoin>
+            <section id="interests" style = "margin-bottom: 5%;">
+                <fieldset style = "border:none">
+                    <h1><center style = "font-size: 3vw;"><fieldset style = "width: 10%;border-radius: 5vmin;border-width: 1vmin; border-color: #0096FF;">Interests</fieldset></center></h1>
+                    <img src = "pencil.jpg" width = 10% style = "margin-left:10%">
+                    <img src = "art.png" width = 10% style = "margin-left:10%">
+                    <img src = "crafts.jpg" width = 10% style = "margin-left:10%">
+                    <img src = "travel.jpg" width = 20% style = "margin-left:10%">
+                </fieldset>
+            </section>
+            <section id = "contact" style = "margin-bottom: 3%;">
+                <fieldset style = "border:none;">
+                    <h1><center style = "font-size: 3vw;"><fieldset style = "width: 10%;border-radius: 5vmin;border-width: 1vmin; border-color: #0096FF;">Contact</fieldset></center></h1>
+                    <div class = "ldata">
+                        <p><center style = "font-size: 2vmax;">I'm seeking for an Entry level position to secure a responsible career opportunity to fully utilize my training and skills, while making a significant contribution to the success of the company.</center></p>
+                    </div>
+                    <div class = "rdata">
+                        <fieldset style = "border:none">
+                            <p><center style = "font-size: 2vmax;">Email-ID : <a href = "mailto:abiramipragash2003@gmail.com" style = "text-decoration: none;">Abirami</a></center></p>                            
+                            <p><center style = "font-size: 2vmax;">Ph No : <a href = "tel:+919080226286" style = "text-decoration: none;">90802 26286</a></center></p>
+                        </fieldset>
+                    </div>
+                </fieldset>
+            </section>
+        </body>
+        <footer>
+            <h3 style = "font-size: 3vmin;">&copy; Abirami's Portfolio. All rights Reserverd</h3>
+        </footer>
+    </html>
